@@ -1,0 +1,170 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* App Container */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-size: 32px;
+    color: #0066cc;
+    margin-bottom: 20px;
+  }
+  
+  /* Header and Footer */
+  header, footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004c99;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #004c99;
+  }
+  
+  /* Form Styling */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #004c99;
+  }
+  
+  /* Case Table */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  table a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Admin Section */
+  .admin-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-section h3 {
+    color: #0066cc;
+    margin-bottom: 15px;
+  }
+  
+  .admin-section button {
+    background-color: #ff5733;
+    margin-top: 10px;
+  }
+  
+  .admin-section button:hover {
+    background-color: #e04b28;
+  }
+  
+  /* Custom Styles for Specific Links */
+  .navbar-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-link:hover {
+    color: #004c99;
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes bubbleEffect {
+    0% { transform: translateY(0); opacity: 0.8; }
+    50% { transform: translateY(-10px); opacity: 1; }
+    100% { transform: translateY(0); opacity: 0.8; }
+  }
+  
